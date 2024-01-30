@@ -2,9 +2,7 @@ name: Danger
 
 on:
   pull_request:
-    branches:
-      - develop
-      - master
+    types: [opened]
 
 jobs:
   danger:
